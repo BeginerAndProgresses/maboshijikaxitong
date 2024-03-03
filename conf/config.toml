@@ -1,0 +1,31 @@
+#系统名称
+Title = "马博士记卡系统"
+#RootPath = "./static/"
+RootPath = "../static/"
+Level = ["小海豚"]
+# 每次循环的次数
+TimeOfLoop = [36]
+# 等级对应循环次数
+Level2Loops = [1]
+# 循环的天数
+DayOfLoop = [90]
+
+#build
+[DbPath]
+    StudentInfo = "../db/StudentInfo.xlsx"
+    LearnRecord = "../db/learnRecord.xlsx"
+
+[LogPath]
+    OperationPath = "../log/operation.log"
+    ErrorPath = "../log/error.log"
+
+
+#main
+#[DbPath]
+#StudentInfo = "./db/StudentInfo.xlsx"
+#LearnRecord = "./db/learnRecord.xlsx"
+#
+#[LogPath]
+#OperationPath = "./log/operation.log"
+#ErrorPath = "./log/error.log"
+

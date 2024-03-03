@@ -1,0 +1,21 @@
+## test1
+#Name = "张三"
+#Age = 18
+#Money = 1.2
+#Hobby = ["打游戏","去医院疗伤"]
+#Birthday = 2023-01-05
+
+#test2
+
+distros = [
+    {name = "Arch Linux", packages = "pacman"},
+    {name = "Void Linux", packages = "xbps"},
+    {name = "Debian",     packages = "apt"},
+]
+
+[[characters.star-trek]]
+name = "James Kirk"
+rank = "Captain"
+[[characters.star-trek]]
+name = "Spock"
+rank = "Science officer"
